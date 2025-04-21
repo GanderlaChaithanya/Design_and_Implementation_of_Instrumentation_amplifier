@@ -1,6 +1,6 @@
 # Design and Implementation of Instrumentation amplifier
 This repository contains the complete design and implementation of an **Instrumentation Amplifier** developed under the **FOSSEE Research Migration Project**, an initiative by IIT Bombay to promote open-source circuit simulation using eSim.
-### Project Overview: Design and Implementation of an Instrumentation Amplifier
+## Project Overview: 
 The Instrumentation Amplifier (IA) is a crucial analog circuit used to amplify low-level signals while rejecting common-mode noise. This project focuses on designing and simulating a three-opamp instrumentation amplifier with high input impedance and low output impedance. The amplifier is designed to ensure accurate amplification of small differential signals, especially in noisy environments, which is essential in applications such as medical instrumentation, sensor signal conditioning, and audio processing.
 ### Key Objectives of the Project:
 #### Design of the Instrumentation Amplifier:
