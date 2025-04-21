@@ -1,0 +1,29 @@
+* C:\Users\Chaithu\eSim-Workspace\instrumentationAmplifier\instrumentationAmplifier.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 4/4/2025 7:02:01 PM
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+X1  ? Net-_R1-Pad1_ in Net-_X1-Pad4_ ? Net-_R2-Pad2_ Net-_X1-Pad7_ ? lm_741		
+X2  ? Net-_R1-Pad2_ GND Net-_X2-Pad4_ ? Net-_R3-Pad2_ Net-_X2-Pad7_ ? lm_741		
+X3  ? Net-_R5-Pad2_ Net-_R4-Pad2_ Net-_X3-Pad4_ ? out Net-_X3-Pad7_ ? lm_741		
+v2  Net-_X1-Pad7_ GND 15		
+v3  GND Net-_X1-Pad4_ 15		
+v5  Net-_X2-Pad7_ GND 15		
+v4  GND Net-_X2-Pad4_ 15		
+v6  Net-_X3-Pad7_ GND 15		
+v7  GND Net-_X3-Pad4_ 15		
+R2  Net-_R1-Pad1_ Net-_R2-Pad2_ 2k		
+R5  Net-_R2-Pad2_ Net-_R5-Pad2_ 6k		
+R4  Net-_R3-Pad2_ Net-_R4-Pad2_ 6k		
+R1  Net-_R1-Pad1_ Net-_R1-Pad2_ 1k		
+R7  Net-_R5-Pad2_ out 10k		
+R6  Net-_R4-Pad2_ GND 10k		
+R3  Net-_R1-Pad2_ Net-_R3-Pad2_ 2k		
+v1  in GND sine		
+U1  in plot_v1		
+U2  out plot_v1		
+
+.end
